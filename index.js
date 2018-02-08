@@ -5,4 +5,10 @@ function takeANumber(line, name){
   //ex. 'Welcome, Ada. You are number 1 in line.'
 }
 
+function nowServing(){
+  //doesn't seem to take any parameters
+  //return first person in line and remove that individual from line
+  // if nobody in line return "There is nobody waiting to be served"
+}
+
 function 
