@@ -11,9 +11,9 @@ function nowServing(line){
   //return first person in line and remove that individual from line
   // if nobody in line return "There is nobody waiting to be served!"
   // 'Currently serving Ada.''
-  if line.length === 0{
+  if (line.length === 0) {
     return "There is nobody waiting to be served!"
-  } else{
+  } else {
     return `Currently serving ${line.shift()}.`
   }
 }
