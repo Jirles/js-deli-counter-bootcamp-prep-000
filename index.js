@@ -5,10 +5,13 @@ function takeANumber(line, name){
   //ex. 'Welcome, Ada. You are number 1 in line.'
 }
 
-function nowServing(){
-  //doesn't seem to take any parameters
+function nowServing(line){
   //return first person in line and remove that individual from line
   // if nobody in line return "There is nobody waiting to be served"
 }
 
-function 
+function currentLine(line){
+  // returns current line
+  //"The line is currently: 1. Ada, 2. Grace"
+  // if no one "The line is currently empty"
+}
